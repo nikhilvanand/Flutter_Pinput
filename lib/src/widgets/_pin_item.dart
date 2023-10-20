@@ -94,7 +94,7 @@ class _PinItem extends StatelessWidget {
       return SizedBox(key: key, child: state.widget.preFilledWidget);
     }
 
-    return Text('', key: key, style: pinTheme.textStyle);
+    return Text('-', key: key, style: pinTheme.textStyle);
   }
 
   Widget _buildCursor(PinTheme pinTheme) {
